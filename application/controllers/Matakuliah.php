@@ -1,14 +1,12 @@
 <?php
-class MataKuliah extends CI_Controller
+defined('BASEPATH') or exit ('no direct script access allowed');
+
+class Matakuliah extends CI_Controller
 {
-
     public function index()
-
     {
-
         $this->load->view('view-form-matakuliah');
     }
-
     public function cetak()
     {
         $data = [
@@ -16,7 +14,6 @@ class MataKuliah extends CI_Controller
             'nama' => $this->input->post('nama'),
             'sks' => $this->input->post('sks')
         ];
-
         $this->load->view('view-data-matakuliah', $data);
     }
 }
