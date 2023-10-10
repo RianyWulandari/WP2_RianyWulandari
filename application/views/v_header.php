@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head //v_header.php//>
     <meta charset="utf-8">
     <title>Web Prog II | Merancang Template sederhana dengan 
         codeigniter</title>
