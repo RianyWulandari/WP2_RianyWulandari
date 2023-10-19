@@ -4,7 +4,7 @@
 </head>
 
 <body>
-    <center>
+    <center //view-form-matakuliah.php//>
          <form method="POST" action="<?= base_url('Matakuliah/cetak'); ?>">
 
              <table>
