@@ -38,7 +38,7 @@ class ModelBuku extends CI_Model
             return $this->db->get()->row($field);
     }
 
-    //manajemen kategori
+    //Manajemen kategori
     public function getKategori()
     {
         return $this->db->get('kategori');
